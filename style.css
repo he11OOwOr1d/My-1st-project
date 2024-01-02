@@ -1,0 +1,278 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+
+.navi {
+  height: 60px;
+  background-color: rgb(15, 17, 17);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+img {
+  width: 92px;
+  margin-left: 1px;
+  padding-left: 10px;
+  padding-right: 8px;
+  margin-top: 1.6px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  margin-right: 1px;
+}
+
+img:hover {
+  border: 2px solid rgb(253, 251, 251)
+}
+
+.address{
+  font-size: 12px;
+}
+
+.address:hover{
+  border: 1.5px solid white;
+}
+.Deliver{
+  color: white;
+  margin-left: 18px;
+  margin-top: 10px;
+
+
+}
+.aaye{
+  font-weight: bold;
+  font-size: 14px;
+  padding-left: 2px;
+}
+
+.icon{
+  display: flex;
+  margin-left: 7px;
+  margin-right: 5px;
+}
+
+.searchbox{
+  display: flex;
+  margin-top: 8px;
+  margin-bottom: 11px;
+  background-color: orange;
+  border-radius: 4px;
+  
+}
+.searchbox:hover{
+  border: 2px solid orange;
+}
+
+.search-select {
+  width: 50px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: #f3f3f3;
+  padding-top: px;
+  text-align: center;
+  border: none;
+}
+
+.search{
+  width: 500px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-style: solid;
+  border: none;
+}
+
+.s-icon {
+  width: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3px;
+  font-size: 1rem;
+  color: #0f1111;
+}
+
+::placeholder{
+  font-size: 1rem;
+  padding-left: 5px;
+}
+
+.hello{
+  margin-top: 9px;
+}
+
+.acc{
+  font-weight: 700;
+  font-size: 0.85rem;
+  background-color: #0f1111;
+}
+
+.hi{
+  font-size: 0.75rem;
+  padding-top: 4px;
+}
+
+.hello:hover{
+  border: 1.5px solid white;
+}
+
+.return{
+  margin-top: 9px;
+}
+
+.return:hover{
+  border: 1.5px solid white;
+}
+
+.shop-icon i{
+  margin-top: 15px;
+  margin-left: 2px;
+  font-size: 30px;
+}
+
+.shop-icon:hover{
+  border: 1.5px solid white;
+}
+
+/* pannel */
+
+.panel{
+  height: 40px;
+  background-color: #222f3d;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 14px;
+  text-align: left;
+}
+
+.panel-opt p{
+  display: inline;
+  color: white;
+  margin-left: 12px;
+
+}
+
+.panel-opt{
+  width: 75%;
+}
+.pannel-all{
+  padding-right: 0px;
+
+}
+
+/* hero */
+.hero{
+  background-image: url(hero.jpg);
+  background-size: cover;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+
+.hero-msg{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  height: 40px;
+  font-size: 0.85rem;
+  margin-bottom: 25px;
+  width: 95%;
+}
+
+.hero-msg a{
+  color: #007185;
+}
+
+.box {
+  border: 2px solid black;
+  height: 100px;
+  width: 23.3%;
+  height: 410px;
+  background-color: white;
+  margin-top: 5px;
+  border: none;
+}
+
+.shop-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgb(155, 216, 235);
+}
+
+.box-img{
+  height: 295px;
+  margin-top: 0.9rem;
+  margin-bottom: 0.9rem;
+  background-size: cover;
+}
+.box-con {
+  margin-left: 14px;
+  margin-right: 14px;
+  padding-top: 10px;
+  
+}
+
+.box-con p{
+  color: #007185;
+}
+
+
+/* footer */
+
+footer{
+  margin-top: 15px;
+}
+
+.foot-p1{
+  height: 50px;
+  background-color: #37475a;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+}
+
+.foot-panel2{
+  background-color: #222f3d;
+  color: white;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+
+ul a{
+  display: block;
+  font-size: 15px;
+  padding-bottom: 12px;
+  color: #dddddd;
+}
+
+.t-foot{
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.foot-pannel3{
+  border-top: 0.5px solid white;
+  background-color: #222f3d;
+  height: 70px;
+  display: flex;
+}
+
+.foot-logo{
+  background-image: url(Amazon-Emblem.jpg);
+  background-size: cover;
+  height: 50px;
+  width: 100px;
+  display: flex;
+}
