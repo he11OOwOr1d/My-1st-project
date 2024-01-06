@@ -265,14 +265,17 @@ ul a{
 .foot-pannel3{
   border-top: 0.5px solid white;
   background-color: #222f3d;
-  height: 70px;
+  height: 0px;
   display: flex;
 }
 
-.foot-logo{
-  background-image: url(Amazon-Emblem.jpg);
-  background-size: cover;
-  height: 50px;
-  width: 100px;
-  display: flex;
-}
+.copy{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 40px;
+  background-color: #222f3d;
+  color: white;
+  padding-top: 10px;
+} 
+
